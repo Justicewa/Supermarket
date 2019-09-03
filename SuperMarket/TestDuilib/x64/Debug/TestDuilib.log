@@ -1,0 +1,27 @@
+﻿生成启动时间为 2019/9/3 星期二 8:38:57。
+     1>项目“E:\Beat science&technology\Project\正式项目\TestDuilib\TestDuilib\TestDuilib.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\Beat science&technology\VS2013\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\MySQL\MySQL Server 8.0\include" /I"E:\Beat science&technology\Project\收银台\duilib-master\duilib-master\DuiLib" /Zi /nologo /W3 /WX- /sdl /Od /D WIN32_LEAN_AND_MEAN /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt CashierWnd.cpp common.cpp Login.cpp Mainwnd.cpp MySQL.cpp TestDuilib.cpp
+         TestDuilib.cpp
+         MySQL.cpp
+         Mainwnd.cpp
+         Login.cpp
+         common.cpp
+         CashierWnd.cpp
+         正在生成代码...
+       Link:
+         E:\Beat science&technology\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Beat science&technology\Project\正式项目\TestDuilib\x64\Debug\TestDuilib.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\Beat science&technology\Project\正式项目\TestDuilib\x64\Debug\lib" /LIBPATH:"C:\Program Files\MySQL\MySQL Server 8.0\lib" libmysql.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Beat science&technology\Project\正式项目\TestDuilib\x64\Debug\TestDuilib.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Beat science&technology\Project\正式项目\TestDuilib\x64\Debug\TestDuilib.lib" /MACHINE:X64 x64\Debug\CashierWnd.obj
+         x64\Debug\common.obj
+         x64\Debug\Login.obj
+         x64\Debug\Mainwnd.obj
+         x64\Debug\MySQL.obj
+         x64\Debug\TestDuilib.obj
+     1>CashierWnd.obj : error LNK2019: 无法解析的外部符号 "public: bool __cdecl MySQL::UpDate(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?UpDate@MySQL@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)，该符号在函数 "protected: void __cdecl CCashierWnd::CommitOrder(void)" (?CommitOrder@CCashierWnd@@IEAAXXZ) 中被引用
+     1>Login.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl MainWnd::MainWnd(class MySQL *)" (??0MainWnd@@QEAA@PEAVMySQL@@@Z)，该符号在函数 "public: void __cdecl LoginWnd::LogIn(void)" (?LogIn@LoginWnd@@QEAAXXZ) 中被引用
+     1>Login.obj : error LNK2019: 无法解析的外部符号 "public: virtual __cdecl MainWnd::~MainWnd(void)" (??1MainWnd@@UEAA@XZ)，该符号在函数 "public: void __cdecl LoginWnd::LogIn(void)" (?LogIn@LoginWnd@@QEAAXXZ) 中被引用
+     1>E:\Beat science&technology\Project\正式项目\TestDuilib\x64\Debug\TestDuilib.exe : fatal error LNK1120: 3 个无法解析的外部命令
+     1>已完成生成项目“E:\Beat science&technology\Project\正式项目\TestDuilib\TestDuilib\TestDuilib.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.59

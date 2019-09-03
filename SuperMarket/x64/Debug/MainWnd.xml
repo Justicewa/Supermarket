@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="1176,817">
+    <VerticalLayout width="1181" height="824" bkcolor="#FFFFA0C0">
+        <HorizontalLayout width="1188" height="30" bkcolor="#FF00C0FF">
+            <Button name="BTN_MIN" float="true" pos="1121,0,0,0" width="27" height="30" bkimage="downlist_ok.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button name="BTN_CLOSE" float="true" pos="1147,0,0,0" width="27" height="30" bkimage="frame_btn_close_hot.bmp" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        </HorizontalLayout>
+        <HorizontalLayout text="员工操作" width="1185" height="30">
+            <Option name="OPTION_EMPLOYEE" text="员工" float="true" pos="5,0,0,0" width="72" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="E:\Beat science&amp;technology\Project\收银台\duilib-master\duilib-master\bin\skin\GameRes\button_nor.bmp" hotimage="E:\Beat science&amp;technology\Project\收银台\duilib-master\duilib-master\bin\skin\GameRes\button_over.bmp" pushedimage="E:\Beat science&amp;technology\Project\收银台\duilib-master\duilib-master\bin\skin\GameRes\button_down.bmp" group="true" selected="true" />
+            <Option name="OPTION_GOODS" text="商品" float="true" pos="81,0,0,0" width="72" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="E:\Beat science&amp;technology\Project\收银台\duilib-master\duilib-master\bin\skin\GameRes\button_nor.bmp" hotimage="E:\Beat science&amp;technology\Project\收银台\duilib-master\duilib-master\bin\skin\GameRes\button_over.bmp" pushedimage="E:\Beat science&amp;technology\Project\收银台\duilib-master\duilib-master\bin\skin\GameRes\button_down.bmp" group="true" />
+        </HorizontalLayout>
+        <TabLayout name="tablayout" width="1187" height="760">
+            <VerticalLayout width="1177" height="761">
+                <Edit name="username" float="true" pos="4,2,0,0" width="81" height="28" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Combo name="usergender" float="true" pos="113,2,0,0" width="77" height="30" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" normalimage="Combo_nor.bmp" hotimage="Combo_nor.bmp" pushedimage="E:\Beat science&amp;technology\Project\收银台\duilib-master\duilib-master\bin\skin\GameRes\Combo_over.bmp" dropboxsize="0,150">
+                    <ListLabelElement />
+                    <ListLabelElement />
+                </Combo>
+                <Edit name="birthday" float="true" pos="221,3,0,0" width="81" height="28" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Combo name="position" float="true" pos="328,4,0,0" width="77" height="30" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" normalimage="Combo_nor.bmp" hotimage="Combo_nor.bmp" pushedimage="E:\Beat science&amp;technology\Project\收银台\duilib-master\duilib-master\bin\skin\GameRes\Combo_over.bmp" dropboxsize="0,150">
+                    <ListLabelElement />
+                    <ListLabelElement />
+                </Combo>
+                <Edit name="telephone" text="tel" float="true" pos="434,6,0,0" width="60" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Edit name="salary" text="sal" float="true" pos="520,7,0,0" width="60" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <List name="LIST_EMPLOYEEINFO" float="true" pos="9,40,0,0" width="992" height="667" bkcolor="#FFFFFFFF" itemtextcolor="#FF000000" itembkcolor="#FFE2DDDF" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" headerbkimage="E:\Beat science&amp;technology\Project\收银台\duilib-master\duilib-master\bin\fg.bmp">
+                    <ListHeader name="domain" bkimage="E:\Beat science&amp;technology\Project\收银台\duilib-master\duilib-master\bin\fg.bmp">
+                        <ListHeaderItem text="姓名" width="75" height="25" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" hotimage="List/list_header_hot.png" pushedimage="List/list_header_pushed.png" sepimage="List/list_header_sep.png" />
+                        <ListHeaderItem text="性别" width="125" height="25" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" hotimage="List/list_header_hot.png" pushedimage="List/list_header_pushed.png" sepimage="List/list_header_sep.png" />
+                        <ListHeaderItem text="生日" width="107" height="24" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" hotimage="List/list_header_hot.png" pushedimage="List/list_header_pushed.png" sepimage="List/list_header_sep.png" />
+                    </ListHeader>
+                </List>
+                <Button name="BTN_SELECT" text="查询" float="true" pos="1042,226,0,0" width="88" height="40" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="button_nor.bmp" hotimage="button_over.bmp" pushedimage="button_down.bmp" />
+                <Button name="BTN_SELL_RECORD" text="销售记录" float="true" pos="1042,588,0,0" width="88" height="40" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="button_nor.bmp" hotimage="button_over.bmp" pushedimage="button_down.bmp" />
+                <Button name="BTN_DELETE" text="删除" float="true" pos="1042,496,0,0" width="88" height="40" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="button_nor.bmp" hotimage="button_over.bmp" pushedimage="button_down.bmp" />
+                <Button name="BTN_INSERT" text="插入" float="true" pos="1042,316,0,0" width="88" height="40" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="button_nor.bmp" hotimage="button_over.bmp" pushedimage="button_down.bmp" />
+                <Button name="BTN_UPDATE" text="更新" float="true" pos="1042,406,0,0" width="88" height="40" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="button_nor.bmp" hotimage="button_over.bmp" pushedimage="button_down.bmp" />
+                <Combo name="COMOB_SELECT" float="true" pos="1024,68,0,0" width="119" height="31" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" normalimage="Combo_nor.bmp" hotimage="Combo_nor.bmp" pushedimage="Combo_over.bmp" dropboxsize="0,150">
+                    <ListLabelElement />
+                    <ListLabelElement />
+                    <ListLabelElement />
+                </Combo>
+            </VerticalLayout>
+            <VerticalLayout width="994" height="761">
+                <Edit name="GOODSname" float="true" pos="4,2,0,0" width="81" height="28" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            </VerticalLayout>
+        </TabLayout>
+    </VerticalLayout>
+</Window>

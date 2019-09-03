@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="484,280">
+    <VerticalLayout width="484" height="280" bkimage="E:\Beat science&amp;technology\Project\收银台\duilib-master\duilib-master\bin\skin\RichListRes\resrc_btn.bmp">
+        <HorizontalLayout width="507" height="30">
+            <Button name="BTN_MIN" float="true" pos="415,-1,0,0" width="35" height="30" bkimage="E:\Beat science&amp;technology\Project\收银台\duilib-master\duilib-master\bin\skin\RichListRes\downlist_ok.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button name="BTN_CLOSE" float="true" pos="450,-1,0,0" width="35" height="30" bkimage="E:\Beat science&amp;technology\Project\收银台\duilib-master\duilib-master\bin\skin\GameRes\frame_btn_close_hot.bmp" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        </HorizontalLayout>
+        <Edit name="EDIT_USER_NAME" tooltip="用户名" float="true" pos="150,86,0,0" width="203" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Edit name="EDIT_USER_PASSWORD" tooltip="密码" float="true" pos="150,147,0,0" width="203" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" password="true" />
+        <Button name="BTN_LOGIN" text="登陆" float="true" pos="168,197,0,0" width="60" height="30" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="center" />
+        <Label float="true" pos="100,86,0,0" width="29" height="30" bkimage="E:\Beat science&amp;technology\Project\收银台\duilib-master\duilib-master\bin\skin\GameRes\user.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Label float="true" pos="100,147,0,0" width="29" height="30" bkimage="E:\Beat science&amp;technology\Project\收银台\duilib-master\duilib-master\bin\skin\GameRes\vip.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+    </VerticalLayout>
+</Window>
